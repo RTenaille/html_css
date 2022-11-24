@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/****************GENERAL****************/
+/*******************BODY*************/
+body{
+    background-color: red;
+    padding: 40vh 15vw 5vh 15vw;
+    display: flex;
+    flex-direction: column;
+}
+/***********************HEADER*********/
+header{
+    background-color: lightgrey;
+    border: 3px solid black;
+}
+header h1{
+    text-transform: uppercase;
+    color: red;
+}
+/****************************MAIN****/
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40vw;
+}
+main form label{
+    margin-bottom: 1vh;
+}
+
+main form input{
+    margin-bottom: 4vh;
+}
+main textarea{
+    margin-bottom: 4vh;
+}
+
+.bouton{
+    display: flex;
+    justify-content: end;
+    margin: 3vh;
+}

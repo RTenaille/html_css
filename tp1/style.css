@@ -12,6 +12,9 @@ a:hover{
 .borderedRight{
     border-right: solid 2px black;
 }
+label{
+    padding: 1vh 1vw;
+}
 /*********************************BODY***************************************/
 body{
     background-color: lightgray;
@@ -56,6 +59,10 @@ main{
     background-color: white;
     margin: 0vh 4vw;
 }
+main h2{
+    text-decoration: dashed;
+    margin: 2vh;
+}
 .WelcomeText{
     display: flex;
     align-items: center;
@@ -83,3 +90,20 @@ main{
     width: 15vh;
 }
 /*******************************************************FOOTER*****************/
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    margin: 4vh 1vw;
+    align-items: center;
+}
+footer form fieldset{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    text-align: center;
+}
